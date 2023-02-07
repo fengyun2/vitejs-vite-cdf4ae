@@ -1,4 +1,13 @@
 {
   "height": "身高",
-  "weight": "体重"
+  "weight": "体重",
+  "activityName": "活动名称",
+  "activityZone": "活动区域",
+  "activityTime": "活动时间",
+  "instantDelivery": "即时配送",
+  "activityType": "活动性质",
+  "resources": "特殊资源",
+  "activityForm": "活动形式",
+  "create": "立即创建",
+  "cancel": "取消"
 }

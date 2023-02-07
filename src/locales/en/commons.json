@@ -1,4 +1,13 @@
 {
   "height": "Height",
-  "weight": "Weight"
+  "weight": "Weight",
+  "activityName": "Activity name",
+  "activityZone": "Activity zone",
+  "activityTime": "Activity time",
+  "instantDelivery": "Instant delivery",
+  "activityType": "Activity type",
+  "resources": "Resources",
+  "activityForm": "Activity form",
+  "create": "Create",
+  "cancel": "Cancel"
 }
