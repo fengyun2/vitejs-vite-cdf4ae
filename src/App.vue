@@ -6,6 +6,7 @@ import { ElConfigProvider } from 'element-plus';
 import { setLocale } from './locales';
 import HelloWorld from './components/HelloWorld.vue';
 import I18nDemo from './components/I18nDemo.vue';
+import ElementForm from './components/ElementForm.vue';
 
 const language = ref('en');
 const locale = computed(() => (language.value === 'zh' ? zhCn : en));
@@ -22,6 +23,7 @@ const toggle = () => {
     <el-button mb-2 @click="toggle">Switch Language</el-button>
     <br />
     <I18nDemo :language="language" :toggle="toggle" />
+    <ElementForm />
   </el-config-provider>
 </template>
 
