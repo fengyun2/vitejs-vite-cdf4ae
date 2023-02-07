@@ -9,5 +9,10 @@
   "resources": "特殊资源",
   "activityForm": "活动形式",
   "create": "立即创建",
-  "cancel": "取消"
+  "cancel": "取消",
+  "activityNamePlaceholder": "请输入活动名称",
+  "activityZonePlaceholder": "请选择活动区域",
+  "pickADate": "选择日期",
+  "pickATime": "选择时间",
+  "onlineActivities": "美食/餐厅线上活动"
 }

@@ -9,5 +9,10 @@
   "resources": "Resources",
   "activityForm": "Activity form",
   "create": "Create",
-  "cancel": "Cancel"
+  "cancel": "Cancel",
+  "activityNamePlaceholder": "please input your name",
+  "activityZonePlaceholder": "please select your zone",
+  "pickADate": "Pick a date",
+  "pickATime": "Pick a time",
+  "onlineActivities": "Online activities"
 }

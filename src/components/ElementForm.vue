@@ -1,10 +1,16 @@
 <template>
   <el-form :model="form" label-width="120px">
     <el-form-item :label="$t('commons.activityName')">
-      <el-input v-model="form.name" />
+      <el-input
+        v-model="form.name"
+        :placeholder="$t('commons.activityNamePlaceholder')"
+      />
     </el-form-item>
     <el-form-item :label="$t('commons.activityZone')">
-      <el-select v-model="form.region" placeholder="please select your zone">
+      <el-select
+        v-model="form.region"
+        :placeholder="$t('commons.activityZonePlaceholder')"
+      >
         <el-option label="Zone one" value="shanghai" />
         <el-option label="Zone two" value="beijing" />
       </el-select>
@@ -14,7 +20,7 @@
         <el-date-picker
           v-model="form.date1"
           type="date"
-          placeholder="Pick a date"
+          :placeholder="$t('commons.pickADate')"
           style="width: 100%"
         />
       </el-col>
@@ -24,7 +30,7 @@
       <el-col :span="11">
         <el-time-picker
           v-model="form.date2"
-          placeholder="Pick a time"
+          :placeholder="$t('commons.pickATime')"
           style="width: 100%"
         />
       </el-col>
@@ -34,7 +40,7 @@
     </el-form-item>
     <el-form-item :label="$t('commons.activityType')">
       <el-checkbox-group v-model="form.type">
-        <el-checkbox label="Online activities" name="type" />
+        <el-checkbox :label="$t('commons.onlineActivities')" name="type" />
         <el-checkbox label="Promotion activities" name="type" />
         <el-checkbox label="Offline activities" name="type" />
         <el-checkbox label="Simple brand exposure" name="type" />
